@@ -1,0 +1,14 @@
+D:\Projetos\DispNext\DispNext\bin\Debug\Disp.dll
+D:\Projetos\DispNext\DispNext\bin\Debug\Disp.pdb
+D:\Projetos\DispNext\DispNext\obj\Debug\DispConsole.csprojResolveAssemblyReference.cache
+D:\Projetos\DispNext\DispNext\bin\Debug\NCalc.dll
+D:\Projetos\DispNext\DispNext\bin\Debug\dispx.exe.manifest
+D:\Projetos\DispNext\DispNext\bin\Debug\dispx.application
+D:\Projetos\DispNext\DispNext\bin\Debug\dispx.exe
+D:\Projetos\DispNext\DispNext\bin\Debug\dispx.pdb
+D:\Projetos\DispNext\DispNext\obj\Debug\dispx.exe.manifest
+D:\Projetos\DispNext\DispNext\obj\Debug\dispx.application
+D:\Projetos\DispNext\DispNext\obj\Debug\dispx.exe
+D:\Projetos\DispNext\DispNext\obj\Debug\dispx.pdb
+D:\Projetos\DispNext\DispNext\bin\Debug\MegariCore.dll
+D:\Projetos\DispNext\DispNext\bin\Debug\MegariCore.pdb

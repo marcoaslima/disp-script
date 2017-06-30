@@ -1,0 +1,17 @@
+#! / disp
+
+import Disp
+
+class Example
+
+function init
+
+Program.SetName("Example Program")
+Print("This is an example Program")
+Wait()
+
+endfunction
+endclass
+
+Call("Example","init")
+

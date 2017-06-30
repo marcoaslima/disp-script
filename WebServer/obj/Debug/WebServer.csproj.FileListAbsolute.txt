@@ -1,0 +1,13 @@
+D:\Projetos\Messenger\WebServer\obj\Debug\WebServer.Properties.Resources.resources
+D:\Projetos\Messenger\WebServer\obj\Debug\WebServer.csproj.GenerateResource.Cache
+D:\Projetos\Messenger\WebServer\bin\Debug\rhenserver.exe
+D:\Projetos\Messenger\WebServer\bin\Debug\rhenserver.pdb
+D:\Projetos\Messenger\WebServer\obj\Debug\rhenserver.exe
+D:\Projetos\Messenger\WebServer\obj\Debug\rhenserver.pdb
+D:\Projetos\Messenger\WebServer\bin\Debug\Disp.dll
+D:\Projetos\Messenger\WebServer\bin\Debug\MegariCom.dll
+D:\Projetos\Messenger\WebServer\bin\Debug\MegariCore.dll
+D:\Projetos\Messenger\WebServer\bin\Debug\NCalc.dll
+D:\Projetos\Messenger\WebServer\bin\Debug\Disp.pdb
+D:\Projetos\Messenger\WebServer\bin\Debug\MegariCom.pdb
+D:\Projetos\Messenger\WebServer\obj\Debug\WebServer.csprojResolveAssemblyReference.cache

@@ -1,0 +1,7 @@
+D:\Projetos\DispNext\DispNext\obj\Debug\DispNext.csprojResolveAssemblyReference.cache
+D:\Projetos\DispNext\DispNext\bin\Debug\DispNext.exe
+D:\Projetos\DispNext\DispNext\bin\Debug\DispNext.pdb
+D:\Projetos\DispNext\DispNext\bin\Debug\Disp.dll
+D:\Projetos\DispNext\DispNext\bin\Debug\Disp.pdb
+D:\Projetos\DispNext\DispNext\obj\Debug\DispNext.exe
+D:\Projetos\DispNext\DispNext\obj\Debug\DispNext.pdb

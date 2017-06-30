@@ -1,0 +1,4 @@
+import Disp
+Project.Name("Sistema")
+print("oi")
+wait

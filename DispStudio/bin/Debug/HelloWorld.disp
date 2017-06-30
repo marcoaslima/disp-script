@@ -1,0 +1,4 @@
+import Disp
+Program.Name("HelloWorld")
+print("How Are you?")
+wait

@@ -1,0 +1,13 @@
+D:\Projetos\DispNext\Disp\bin\Debug\Disp.dll
+D:\Projetos\DispNext\Disp\bin\Debug\Disp.pdb
+D:\Projetos\DispNext\Disp\obj\Debug\Disp.dll
+D:\Projetos\DispNext\Disp\obj\Debug\Disp.pdb
+D:\Projetos\DispNext\Disp\bin\Debug\Disp.dll.config
+D:\Projetos\DispNext\Disp\bin\Debug\Newtonsoft.Json.dll
+D:\Projetos\DispNext\Disp\bin\Debug\System.Data.SQLite.dll
+D:\Projetos\DispNext\Disp\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Projetos\DispNext\Disp\bin\Debug\Newtonsoft.Json.xml
+D:\Projetos\DispNext\Disp\bin\Debug\System.Data.SQLite.xml
+D:\Projetos\DispNext\Disp\bin\Debug\NCalc.dll
+D:\Projetos\DispNext\Disp\bin\Debug\MegariCore.dll
+D:\Projetos\DispNext\Disp\bin\Debug\MegariCore.pdb

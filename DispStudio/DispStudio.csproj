@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{01D6A33F-4DC0-432D-98C4-96A8D4D55909}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DispStudio</RootNamespace>
+    <AssemblyName>DispStudio</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>dispstudio.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MegariCore, Version=1.2.1.5, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\MegariCom\MegariCore\bin\Debug\MegariCore.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controller\FolderController.cs" />
+    <Compile Include="Loader.cs" />
+    <Compile Include="Model\ScriptModel.cs" />
+    <Compile Include="Views\FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\FormNewProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FormNewProject.Designer.cs">
+      <DependentUpon>FormNewProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FormProjectOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FormProjectOptions.Designer.cs">
+      <DependentUpon>FormProjectOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UC\UCFile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\UC\UCFile.Designer.cs">
+      <DependentUpon>UCFile.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Views\FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Views\FormNewProject.resx">
+      <DependentUpon>FormNewProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FormProjectOptions.resx">
+      <DependentUpon>FormProjectOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UC\UCFile.resx">
+      <DependentUpon>UCFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DispC\DispInterpreter.csproj">
+      <Project>{eb6f2c9d-ce66-4475-b104-62e5cd811faa}</Project>
+      <Name>DispInterpreter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DispNext\DispConsole.csproj">
+      <Project>{3efa0656-f430-40f8-aa8d-dd9b47473f1c}</Project>
+      <Name>DispConsole</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Disp\Disp.csproj">
+      <Project>{51b926d3-86cb-4a59-99f6-e51ae93ea2ae}</Project>
+      <Name>Disp</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="dispstudio.ico" />
+    <None Include="Resources\folder-24.png" />
+    <None Include="Resources\start-24.png" />
+    <None Include="Resources\automatic-24.png" />
+    <None Include="Resources\automatic-48.png" />
+    <None Include="Resources\about-24.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

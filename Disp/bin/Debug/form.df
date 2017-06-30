@@ -1,0 +1,48 @@
+{
+	"Disp": [{"Version": "", "Enconding": "utf-8"}],
+	"DForm":
+	[{
+		"FormProperties":[{
+			"Id": "",
+			"Title": "",
+			"WindowPosition": "",
+			"Class":"",
+			"Icon": "",
+			"BackColor": "",
+			"BackGroundImage": "",
+			"DesignSize":[{"Height":"", "Width": ""}],
+			"Events":[{
+				"OnFormLoad":"",
+				"OnFormClose":"",
+				"OnFormClosing": ""
+			}],
+			"ScriptAssociated":"",
+			"EnableMaximizeBox":"",
+			"EnableMinimizeBox": ""
+		}],
+		"FormComponents":[{
+			"Buttons":[{
+				"DButton":[{
+					"Id":"",
+					"Text":"",
+					"DesignSize":[{"Height":"", "Width": ""}],
+					"Location":[{"X":"", "Y": ""}],
+					"Events":[{
+						"OntTextChangeClick":""
+					}]
+				}]
+			}],
+			"TextBoxes":[{
+				"DTextBox":[{
+					"Id":"",
+					"Text":"",
+					"DesignSize":[{"Height":"", "Width": ""}],
+					"Location":[{"X":"", "Y": ""}],
+					"Events":[{
+						"OnButtonClick":""
+					}]
+				}]
+			}]
+		}]
+	}]
+}
